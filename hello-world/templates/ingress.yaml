@@ -16,7 +16,7 @@ spec:
             pathType: {{ .pathType }}
             backend:
               service:
-                name: {{ $fullName }}
+                name: {{ include "hello-world.fullname" . }}
                 port:
                   name: http
           {{- end }}
