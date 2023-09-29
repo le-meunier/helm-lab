@@ -7,9 +7,5 @@ version: 0.1.0
 appVersion: 1.0.0
 license: MIT
 dependencies:
-- name: nginx
-  version: "1.2.3"
-  repository: "https://example.com/charts"
-- name: memcached
-  version: "3.2.1"
-  repository: "https://another.example.com/charts"
+- name: wordpress
+  repository: "oci://registry-1.docker.io/bitnamicharts/wordpress"
